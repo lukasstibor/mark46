@@ -52,14 +52,11 @@ export default function Newsletter() {
               {/* Left — 3 cols */}
               <div className="md:col-span-3">
                 <h2 className="font-display font-bold text-[clamp(1.6rem,3vw,2.4rem)] text-[#f0ede8] mb-2 tracking-tight leading-tight">
-                  Get the deals I'm watching.
+                  What's worth your time.
                 </h2>
                 <p className="text-[#555] text-sm leading-relaxed">
-                  What I'm investing in, building, and paying attention to.
-                  Sent only when there's something real to share.
-                </p>
-                <p className="font-mono text-[10px] text-[#333] tracking-[0.2em] mt-3">
-                  2,000+ founders & operators already in
+                  Startups, technology, and what's moving. Sent when something is genuinely
+                  worth your time — not on a schedule. 2,000+ founders, operators, and builders already in.
                 </p>
               </div>
 

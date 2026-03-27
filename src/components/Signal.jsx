@@ -73,7 +73,7 @@ export default function Signal() {
             viewport={{ once: true, margin: '-50px' }}
             className="space-y-px"
           >
-            {posts.map((post, i) => (
+            {posts.slice(0, 5).map((post, i) => (
               <motion.a
                 key={i}
                 variants={itemVariants}

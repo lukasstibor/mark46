@@ -170,7 +170,7 @@ function ChapterTile({ c }) {
       target="_blank"
       rel="noopener noreferrer"
       variants={itemVariants}
-      className="group relative bg-[#080808] hover:bg-[#0d0d0d] transition-colors duration-300 overflow-hidden"
+      className="group relative bg-transparent hover:bg-[#0a0a0a] transition-colors duration-300 overflow-hidden"
       style={{ minHeight: '100px' }}
     >
       {/* Subtle armor stripes (always slightly visible for past items) */}
@@ -269,7 +269,7 @@ export default function Holdings() {
           initial="hidden"
           whileInView="visible"
           viewport={{ once: true }}
-          className="grid grid-cols-2 md:grid-cols-3 gap-px bg-[#111]"
+          className="grid grid-cols-2 md:grid-cols-3 gap-0 bg-[#0a0a0a]"
         >
           {CHAPTERS.map((c) => (
             <ChapterTile key={c.name} c={c} />

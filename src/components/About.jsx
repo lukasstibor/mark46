@@ -259,21 +259,19 @@ export default function About() {
             className="lg:col-span-3 space-y-6 pt-0 lg:pt-2"
           >
             <p className="text-[#777] text-[1rem] leading-[1.85]">
-              I've been a tech entrepreneur since I built my first website at 14. Co-founded
-              Cleevio in 2008 — started as a software studio, grew into a group working with
-              brands like McDonald's, Coca-Cola, and Oreo. Forbes 30 Under 30. Deloitte Fast 50 &amp; 500.
+              I'm Lukas Stibor, founder and operator. Mark 46 is my private investment vehicle.
             </p>
 
             <p className="text-[#777] text-[1rem] leading-[1.85]">
-              Along the way I co-founded several B2C products with millions of users — GAMEE
-              (8M+ MAU, acquired by Animoca Brands), Spendee, CoinBrain, TradingAnalyzer.ai.
-              Some I still hold, some I've exited.
+              I've been building since 14. Co-founded Cleevio in 2008 — grew it into a digital studio
+              and venture builder. Built products used by millions: GAMEE (8M+ MAU, acquired Animoca Brands),
+              Spendee, CoinBrain. Stepped back for 8 years. Came back in late 2025 as CEO to transform
+              the entire group into an AI-first organization.
             </p>
 
             <p className="text-[#777] text-[1rem] leading-[1.85]">
-              Stepped away from Cleevio for 8 years. Came back in 2025 as CEO. Now turning
-              Cleevio Group into an AI-first organization and investing through Mark 46
-              on the side.
+              Now I run Cleevio Group and invest through Mark 46. Looking for exceptional founders
+              and teams building the future. Always open to consulting if it's the right fit.
             </p>
 
             <div className="pt-4 grid grid-cols-1 sm:grid-cols-2 gap-3">

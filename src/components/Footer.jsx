@@ -14,34 +14,10 @@ export default function Footer() {
   const year = new Date().getFullYear()
 
   return (
-    <footer className="border-t border-[#111] relative overflow-hidden">
-
-      {/* Iron Man artwork — subtle background element */}
-      <div className="absolute right-0 top-0 bottom-0 w-[300px] lg:w-[400px] pointer-events-none select-none">
-        <div
-          className="absolute inset-0 bg-contain bg-no-repeat bg-right-bottom"
-          style={{
-            backgroundImage: 'url(/ironman-1.jpg)',
-            opacity: 0.12,
-          }}
-        />
-        {/* Fade left edge into background */}
-        <div
-          className="absolute inset-0"
-          style={{
-            background: 'linear-gradient(to right, #080808 0%, rgba(8,8,8,0.6) 40%, rgba(8,8,8,0) 100%)',
-          }}
-        />
-      </div>
-
-      {/* Footer content */}
-      <div className="relative z-10 px-6 py-12">
+    <footer className="border-t border-[#111]">
+      <div className="px-6 py-12">
         <div className="max-w-6xl mx-auto">
-
-          {/* Main footer content */}
           <div className="flex flex-col lg:flex-row lg:items-center justify-between gap-8 pb-8 border-b border-[#111]">
-
-            {/* Left: Company info */}
             <div>
               <span className="font-display font-bold text-lg text-[#f0ede8] tracking-tight">
                 Mark 46
@@ -51,15 +27,10 @@ export default function Footer() {
               </p>
             </div>
 
-            {/* Right: Copyright + Social */}
             <div className="flex flex-col sm:flex-row sm:items-center gap-6 sm:gap-10">
-
-              {/* Copyright */}
               <span className="font-mono text-[9px] text-[#333] tracking-widest">
                 &copy; 2023&ndash;{year} Mark 46
               </span>
-
-              {/* Social Links */}
               <div className="flex items-center gap-4">
                 <a
                   href="https://www.linkedin.com/in/stibor/"
@@ -81,14 +52,10 @@ export default function Footer() {
                   <span className="font-mono text-[10px] tracking-widest hidden sm:inline">Twitter</span>
                 </a>
               </div>
-
             </div>
-
           </div>
-
         </div>
       </div>
-
     </footer>
   )
 }

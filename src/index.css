@@ -1,0 +1,83 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  body {
+    background-color: #080808;
+    color: #f0ede8;
+    font-family: Inter, system-ui, sans-serif;
+  }
+
+  * {
+    box-sizing: border-box;
+  }
+}
+
+/* Arc reactor ring animations */
+@keyframes spinSlow {
+  from { transform: rotate(0deg); }
+  to   { transform: rotate(360deg); }
+}
+
+@keyframes spinReverse {
+  from { transform: rotate(360deg); }
+  to   { transform: rotate(0deg); }
+}
+
+/* Hero scan line */
+@keyframes scanLine {
+  0%   { transform: translateY(0vh); opacity: 0; }
+  4%   { opacity: 0.6; }
+  96%  { opacity: 0.6; }
+  100% { transform: translateY(100vh); opacity: 0; }
+}
+
+/* Terminal cursor blink */
+@keyframes termBlink {
+  0%, 100% { opacity: 1; }
+  50%       { opacity: 0; }
+}
+
+.term-cursor {
+  display: inline-block;
+  width: 8px;
+  height: 13px;
+  background: #B22222;
+  vertical-align: middle;
+  animation: termBlink 1s step-end infinite;
+}
+
+/* Dot grid background utility */
+.dot-grid {
+  background-image:
+    linear-gradient(rgba(255, 255, 255, 0.025) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(255, 255, 255, 0.025) 1px, transparent 1px);
+  background-size: 64px 64px;
+}
+
+/* Arc reactor core pulsing glow — scale + opacity only, no translate */
+@keyframes reactorPulse {
+  0%, 100% { opacity: 1;    transform: scale(1);    }
+  50%       { opacity: 0.55; transform: scale(1.18); }
+}
+
+/* About photo horizontal scan line — moves top → bottom then resets */
+@keyframes photoScan {
+  0%   { transform: translateY(-40px);  opacity: 0;   }
+  8%   { opacity: 1;                                   }
+  92%  { opacity: 1;                                   }
+  100% { transform: translateY(calc(100% + 40px)); opacity: 0; }
+}
+
+/* Section fade-up (used via Framer Motion, but kept here as fallback) */
+.fade-up {
+  opacity: 0;
+  transform: translateY(24px);
+}

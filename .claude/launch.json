@@ -1,0 +1,17 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "mark46 dev",
+      "runtimeExecutable": "/Users/lukasstibor/.nvm/versions/node/v24.14.1/bin/node",
+      "runtimeArgs": ["/Users/lukasstibor/Mark46/node_modules/.bin/vite"],
+      "port": 5173
+    },
+    {
+      "name": "mark46 preview",
+      "runtimeExecutable": "/Users/lukasstibor/.nvm/versions/node/v24.14.1/bin/node",
+      "runtimeArgs": ["/Users/lukasstibor/Mark46/node_modules/.bin/vite", "preview"],
+      "port": 4173
+    }
+  ]
+}

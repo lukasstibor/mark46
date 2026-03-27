@@ -1,0 +1,273 @@
+═══════════════════════════════════════════════════════════════════════════════
+                    MARK 46 REDESIGN — VISUAL REFERENCE
+═══════════════════════════════════════════════════════════════════════════════
+
+ABOUT SECTION REDESIGN
+─────────────────────────────────────────────────────────────────────────────
+
+BEFORE (Current):
+┌─────────────────────────────────────────────────────────────────────────────┐
+│ I've been a tech entrepreneur since I built my first website at 14. Co-    │
+│ founded Cleevio in 2008 — started as a software studio, grew into a       │
+│ group working with brands like McDonald's, Coca-Cola, and Oreo.           │
+│                                                                            │
+│ Along the way I co-founded several B2C products with millions of users    │
+│ — GAMEE (8M+ MAU), Spendee, CoinBrain, TradingAnalyzer.ai.              │
+│                                                                            │
+│ Stepped away from Cleevio for 8 years. Came back in 2025 as CEO.        │
+└─────────────────────────────────────────────────────────────────────────────┘
+
+AFTER (New - LinkedIn Voice):
+┌─────────────────────────────────────────────────────────────────────────────┐
+│ I'm Lukas Stibor, founder and operator. Mark 46 is my private            │
+│ investment vehicle.                                                       │
+│                                                                            │
+│ I've been building since 14. Co-founded Cleevio in 2008 — grew it into   │
+│ a digital studio and venture builder. Built products used by millions:   │
+│ GAMEE (8M+ MAU, acquired Animoca Brands), Spendee, CoinBrain. Stepped   │
+│ back for 8 years. Came back in late 2025 as CEO to transform the        │
+│ entire group into an AI-first organization.                              │
+│                                                                            │
+│ Now I run Cleevio Group and invest through Mark 46. Looking for          │
+│ exceptional founders and teams building the future. Always open to        │
+│ consulting if it's the right fit.                                         │
+└─────────────────────────────────────────────────────────────────────────────┘
+
+KEY CHANGES:
+✓ Lead sentence establishes identity + Mark 46 as private investment vehicle
+✓ Narrative flows: building → Cleevio → products → gap → return → current role
+✓ More personal, direct tone (LinkedIn voice)
+✓ Consolidates achievements while focusing on future (Mark 46)
+✓ Removes generic corporate speak
+
+
+NEWSLETTER SECTION REDESIGN
+─────────────────────────────────────────────────────────────────────────────
+
+HEADLINE CHANGE:
+   "Get the deals I'm watching." → "What's worth your time."
+
+BODY TEXT CONSOLIDATION:
+   BEFORE (2 paragraphs):
+   ┌─────────────────────────────────────────────────────────┐
+   │ What I'm investing in, building, and paying attention   │
+   │ to. Sent only when there's something real to share.     │
+   │                                                          │
+   │ 2,000+ founders & operators already in                  │
+   └─────────────────────────────────────────────────────────┘
+
+   AFTER (1 paragraph):
+   ┌─────────────────────────────────────────────────────────┐
+   │ Startups, technology, and what's moving. Sent when      │
+   │ something is genuinely worth your time — not on a       │
+   │ schedule. 2,000+ founders, operators, and builders      │
+   │ already in.                                              │
+   └─────────────────────────────────────────────────────────┘
+
+TONE SHIFT:
+✓ More CTA-focused headline
+✓ Emphasizes quality over frequency
+✓ Shows social proof naturally
+✓ More urgent, compelling voice
+
+
+HOLDINGS SECTION REDESIGN
+─────────────────────────────────────────────────────────────────────────────
+
+PAST SECTION BORDER:
+
+   BEFORE (With white box frame):
+   ┌──────────────┬──────────────┬──────────────┐
+   │   GAMEE  │ CoinBrain │ Trading.ai │
+   │                                             │
+   ├──────────────┼──────────────┼──────────────┤
+   │              │              │              │
+   └──────────────┴──────────────┴──────────────┘
+   (Grid with visible borders/background)
+
+   AFTER (Clean grid, no frame):
+   ┌──────────────┬──────────────┬──────────────┐
+   │   GAMEE  │ CoinBrain │ Trading.ai │
+   │                                             │
+   │              │              │              │
+   └──────────────┴──────────────┴──────────────┘
+   (Seamless grid, subtle separation)
+
+CHANGE: Remove white box effect by:
+   - Change: gap-px bg-[#111] → gap-0 bg-[#0a0a0a]
+   - Optional: bg-[#080808] → bg-transparent on ChapterTile
+
+
+SIGNAL SECTION REDESIGN
+─────────────────────────────────────────────────────────────────────────────
+
+DISPLAY CHANGE:
+
+   BEFORE:
+   ┌─────────────────────────────────────────┐
+   │ 01 Builder Mode: 5 Months...    Mar 2026
+   ├─────────────────────────────────────────┤
+   │ 02 Most Promising YC Startups... Mar 2026
+   ├─────────────────────────────────────────┤
+   │ 03 I Stepped Down 8 Years...    Nov 2025
+   ├─────────────────────────────────────────┤
+   │ 04 Hottest YC Startups...       Aug 2025
+   ├─────────────────────────────────────────┤
+   │ 05 TOP 5 Hottest Projects...    Jun 2025
+   ├─────────────────────────────────────────┤
+   │ [MORE POSTS IF ANY]
+   └─────────────────────────────────────────┘
+
+   AFTER (MAX 5):
+   ┌─────────────────────────────────────────┐
+   │ 01 Builder Mode: 5 Months...    Mar 2026
+   ├─────────────────────────────────────────┤
+   │ 02 Most Promising YC Startups... Mar 2026
+   ├─────────────────────────────────────────┤
+   │ 03 I Stepped Down 8 Years...    Nov 2025
+   ├─────────────────────────────────────────┤
+   │ 04 Hottest YC Startups...       Aug 2025
+   ├─────────────────────────────────────────┤
+   │ 05 TOP 5 Hottest Projects...    Jun 2025
+   └─────────────────────────────────────────┘
+
+CHANGE: Add .slice(0, 5) to post mapping
+
+
+FOOTER REDESIGN — MAJOR CHANGE
+─────────────────────────────────────────────────────────────────────────────
+
+BEFORE (Current - 3 Column + Quote):
+
+┌─────────────────────────────────────────────────────────────────────────────┐
+│                                                                             │
+│        "Sometimes you gotta run BEFORE YOU WALK."                          │
+│                 — Tony Stark · Mark XLVI                                   │
+│                                                                             │
+├─────────────────────────────────────────────────────────────────────────────┤
+│                                                                             │
+│  Mark 46                  Contact              Follow                       │
+│  Private Investment       hello@mark46.com      LinkedIn                    │
+│  Company                  Book a call →         Twitter                     │
+│                                                                             │
+├─────────────────────────────────────────────────────────────────────────────┤
+│                                                                             │
+│  © 2023–2026 MARK 46          Built with conviction.                       │
+│                                                                             │
+└─────────────────────────────────────────────────────────────────────────────┘
+
+
+AFTER (New - Minimal 2 Column, No Quote):
+
+┌─────────────────────────────────────────────────────────────────────────────┐
+│                                                                             │
+│  Mark 46                           © 2023–2026 Mark 46  LinkedIn · Twitter │
+│  Private Investment                                                         │
+│                                                                             │
+└─────────────────────────────────────────────────────────────────────────────┘
+
+CHANGES:
+✓ REMOVE: Quote section entirely
+✓ REMOVE: Contact column (hello@mark46.com, "Book a call")
+✓ REMOVE: "Contact" and "Follow" section labels
+✓ CHANGE: 3-column grid → 2-column flex layout
+✓ SIMPLIFY: "Private Investment Company" → "Private Investment"
+✓ INTEGRATE: Social links into right side
+✓ MOVE: Quote to About section (or new section)
+
+DESIGN BENEFITS:
+✓ Premium, minimal aesthetic
+✓ Less visual noise
+✓ Focus on company identity
+✓ Cleaner desktop experience
+✓ Better mobile stacking
+✓ Removes contact friction (direct channels: About CTAs or LinkedIn/Twitter)
+
+
+QUOTE RELOCATION OPTIONS
+─────────────────────────────────────────────────────────────────────────────
+
+Option A: Add to About Section (RECOMMENDED)
+   Position: After bio paragraphs, before closing section
+   Visual: Small callout box with border-top separator
+
+Option B: New Standalone Section ("Philosophy")
+   Position: Between Holdings and Footer
+   Visual: Centered, full-width, minimal
+
+Option C: Hidden (Keep in footer as data, move to About later)
+   Position: Not displayed until repositioned
+   Visual: None (temporary)
+
+
+RESPONSIVE DESIGN NOTES
+─────────────────────────────────────────────────────────────────────────────
+
+Mobile (< 640px):
+  • Newsletter: Stack headline + body + form vertically
+  • Footer: Stack company info above copyright + social
+  • About: Photo full width, bio below (no grid)
+  • Holdings: 2-column grid on mobile, 3 on tablet
+
+Tablet (640px - 1024px):
+  • Holdings: 3-column grid
+  • Footer: Flex row with wrapping
+
+Desktop (> 1024px):
+  • All layouts expand to full width
+  • Holdings: 3-column grid
+  • Footer: Single row (company | copyright + social)
+
+
+PENDING ITEMS
+─────────────────────────────────────────────────────────────────────────────
+
+1. LOGO FILES (Waiting)
+   ✗ Coinbrain logo (user said "posilam obe loga znovu")
+   ✗ GAMEE logo (too small currently)
+   → Update `/logos/` folder when files received
+
+2. QUOTE CONFIRMATION
+   ✗ Where should quote go? (About or new section?)
+   → Implement after user confirms
+
+3. NEWSLETTER HEADLINE APPROVAL
+   ✗ "What's worth your time." (recommended)
+   ✗ "Join the insiders."
+   ✗ "Build smarter."
+   ✗ "Get early signals."
+   → Implement preferred option
+
+4. GENERAL REVIEW
+   ✗ User feedback on new designs
+   → Make adjustments as needed
+
+
+IMPLEMENTATION TIMELINE
+─────────────────────────────────────────────────────────────────────────────
+
+Phase 1 (Immediate - 20 min):
+  □ Update About bio text
+  □ Update Newsletter headline + body
+  □ Update Holdings border/frame
+  □ Update Signal posts limit
+  □ Redesign Footer completely
+  
+Phase 2 (After Approval - 10 min):
+  □ Move quote to About or new section
+  □ Test responsive design
+  □ Verify all links
+
+Phase 3 (When Ready - 5 min):
+  □ Replace logo files (Coinbrain, GAMEE)
+  □ Final QA and deployment
+
+
+═══════════════════════════════════════════════════════════════════════════════
+                              READY TO IMPLEMENT
+═══════════════════════════════════════════════════════════════════════════════
+
+See CODE_CHANGES_READY_TO_IMPLEMENT.md for copy-paste code blocks.
+See REDESIGN_IMPLEMENTATION_GUIDE.md for detailed line-by-line instructions.
+See REDESIGN_SUMMARY.md for quick reference.
+

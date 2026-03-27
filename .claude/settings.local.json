@@ -1,0 +1,40 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm install:*)",
+      "Read(//Applications/**)",
+      "Bash(/dev/null -name node -type f)",
+      "Bash(mdfind \"kMDItemFSName == ''''node'''' && kMDItemContentType == ''''public.unix-executable''''\")",
+      "Bash(curl --version)",
+      "Bash(curl -fsSL https://raw.githubusercontent.com/nvm-sh/nvm/v0.40.1/install.sh)",
+      "Bash(bash)",
+      "Bash(export NVM_DIR=\"$HOME/.nvm\")",
+      "Bash(. \"$NVM_DIR/nvm.sh\")",
+      "Bash(npm --version)",
+      "mcp__Claude_Preview__preview_start",
+      "WebFetch(domain:www.linkedin.com)",
+      "WebFetch(domain:coinbrain.com)",
+      "Bash(cp \"/Users/lukasstibor/Downloads/cleevio-group-logo.svg\" \"/Users/lukasstibor/Mark46/public/logos/cleevio.svg\")",
+      "Bash(cp \"/Users/lukasstibor/Downloads/logo_white_wide.svg\" \"/Users/lukasstibor/Mark46/public/logos/fortraders.svg\")",
+      "Bash(cp \"/Users/lukasstibor/Downloads/Spendee_logo.png\" \"/Users/lukasstibor/Mark46/public/logos/spendee.png\")",
+      "Bash(cp \"/Users/lukasstibor/Downloads/5f0dae02ad699bc5eb738016_gamee_logo.png\" \"/Users/lukasstibor/Mark46/public/logos/gamee.png\")",
+      "Bash(cp \"/Users/lukasstibor/Downloads/photo_2026-03-23 23.34.31.jpeg\" \"/Users/lukasstibor/Mark46/public/lukas.jpeg\")",
+      "WebFetch(domain:www.credoventures.com)",
+      "WebFetch(domain:www.jiridiblik.com)",
+      "Bash(curl -s -A \"Mozilla/5.0 \\(Macintosh; Intel Mac OS X 10_15_7\\) AppleWebKit/537.36 \\(KHTML, like Gecko\\) Chrome/120.0.0.0 Safari/537.36\" https://www.credoventures.com/)",
+      "Bash(xargs ls:*)",
+      "Bash(sort -k6,7 -r)",
+      "Bash(find /Users/lukasstibor -maxdepth 5 -newer /Users/lukasstibor/Downloads/coinibrain1674163224979.jpeg \\\\\\(-name *.jpeg -o -name *.jpg -o -name *.png \\\\\\))",
+      "Bash(find /Users/lukasstibor -name lukas* -o -name stibor* -o -name LS*)",
+      "Bash(find /Users/lukasstibor -name *.png -newer /Users/lukasstibor/Downloads/forders1512.webp)",
+      "Bash(find /Users/lukasstibor/Desktop -name *.jpg -o -name *.jpeg -o -name *.png)",
+      "Bash(xargs file:*)",
+      "Bash(node -e \"require\\(''''./src/App.jsx''''\\)\")",
+      "Bash(npx vite:*)",
+      "Bash(export PATH=\"/opt/homebrew/bin:/usr/local/bin:$PATH\")",
+      "Bash(/Users/lukasstibor/Mark46/node_modules/.bin/vite build:*)",
+      "Bash(PATH=\"$HOME/.nvm/versions/node/v24.14.1/bin:$PATH\" npx vite build --logLevel warn)",
+      "Bash(grep -E \"^import|^export\" /Users/lukasstibor/Mark46/src/components/*.jsx)"
+    ]
+  }
+}

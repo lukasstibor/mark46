@@ -269,7 +269,7 @@ export default function Hero({ onJarvis }) {
               initial={{ opacity: 0, y: 16 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.7, delay: 0.5, ease: [0.22, 1, 0.36, 1] }}
-              className="font-mono text-[10px] sm:text-[11px] tracking-[0.35em] text-[#444] uppercase mb-8"
+              className="font-mono text-[10px] sm:text-[11px] tracking-[0.35em] text-[#666] uppercase mb-8"
             >
               Private Investment Company
             </motion.p>
@@ -278,7 +278,7 @@ export default function Hero({ onJarvis }) {
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.8, delay: 0.65, ease: [0.22, 1, 0.36, 1] }}
-              className="text-[#555] text-[clamp(0.85rem,1.8vw,1rem)] max-w-md mx-auto mb-10 leading-[1.85]"
+              className="text-[#999] text-[clamp(0.85rem,1.8vw,1rem)] max-w-md mx-auto mb-10 leading-[1.85]"
             >
               Focusing on technology and real estate. Not a traditional VC or family office.
               Not afraid of risk or unconventional deals — as long as they make sense.

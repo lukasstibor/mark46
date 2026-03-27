@@ -14,10 +14,28 @@ export default function Footer() {
   const year = new Date().getFullYear()
 
   return (
-    <footer className="border-t border-[#111]">
+    <footer className="border-t border-[#111] relative overflow-hidden">
 
-      {/* Minimal footer - clean 2-column layout */}
-      <div className="px-6 py-12">
+      {/* Iron Man artwork — subtle background element */}
+      <div className="absolute right-0 top-0 bottom-0 w-[300px] lg:w-[400px] pointer-events-none select-none">
+        <div
+          className="absolute inset-0 bg-contain bg-no-repeat bg-right-bottom"
+          style={{
+            backgroundImage: 'url(/ironman-1.jpg)',
+            opacity: 0.12,
+          }}
+        />
+        {/* Fade left edge into background */}
+        <div
+          className="absolute inset-0"
+          style={{
+            background: 'linear-gradient(to right, #080808 0%, rgba(8,8,8,0.6) 40%, rgba(8,8,8,0) 100%)',
+          }}
+        />
+      </div>
+
+      {/* Footer content */}
+      <div className="relative z-10 px-6 py-12">
         <div className="max-w-6xl mx-auto">
 
           {/* Main footer content */}
@@ -28,7 +46,7 @@ export default function Footer() {
               <span className="font-display font-bold text-lg text-[#f0ede8] tracking-tight">
                 Mark 46
               </span>
-              <p className="font-mono text-[10px] text-[#333] tracking-[0.2em] mt-2">
+              <p className="font-mono text-[10px] text-[#444] tracking-[0.2em] mt-2">
                 Private Investment
               </p>
             </div>
@@ -37,8 +55,8 @@ export default function Footer() {
             <div className="flex flex-col sm:flex-row sm:items-center gap-6 sm:gap-10">
 
               {/* Copyright */}
-              <span className="font-mono text-[9px] text-[#222] tracking-widest">
-                © 2023–{year} Mark 46
+              <span className="font-mono text-[9px] text-[#333] tracking-widest">
+                &copy; 2023&ndash;{year} Mark 46
               </span>
 
               {/* Social Links */}
@@ -52,7 +70,7 @@ export default function Footer() {
                   <LinkedInIcon />
                   <span className="font-mono text-[10px] tracking-widest hidden sm:inline">LinkedIn</span>
                 </a>
-                <span className="text-[#1e1e1e]">·</span>
+                <span className="text-[#1e1e1e]">&middot;</span>
                 <a
                   href="https://twitter.com/lukastibor"
                   target="_blank"

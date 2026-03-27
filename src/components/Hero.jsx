@@ -13,6 +13,16 @@ const RINGS = [
 function ArcReactorBg() {
   return (
     <div className="absolute inset-0 overflow-hidden pointer-events-none select-none">
+      {/* Low-poly Iron Man background */}
+      <div
+        className="absolute inset-0 bg-cover bg-center bg-no-repeat"
+        style={{
+          backgroundImage: 'url(/hero-bg.jpg)',
+          opacity: 0.35,
+          filter: 'blur(1px)',
+        }}
+      />
+
       {/* Dot grid */}
       <div className="absolute inset-0 dot-grid opacity-100" />
 

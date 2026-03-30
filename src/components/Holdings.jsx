@@ -32,13 +32,6 @@ const HOLDINGS = [
     url: 'https://atomika.gold',
   },
   {
-    name: 'Synhawk',
-    type: 'Technology · Intelligence',
-    role: 'Advisor',
-    logo: '/logos/synhawk.svg',
-    url: 'https://synhawk.com',
-  },
-  {
     name: 'KAYA.vc',
     type: 'Venture Capital',
     role: 'Investor',

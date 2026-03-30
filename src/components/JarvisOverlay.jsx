@@ -4,7 +4,7 @@ import { motion, AnimatePresence } from 'framer-motion'
 const TERMINAL_LINES = [
   { text: '> MARK 46 SYSTEM DIAGNOSTICS', delay: 0, color: 'text-[#B22222]' },
   { text: '> Initializing portfolio scan...', delay: 220, color: 'text-[#555]' },
-  { text: '> Holdings loaded: Cleevio Group, ForTraders, Spendee, Atomika, Synhawk', delay: 600, color: 'text-[#555]' },
+  { text: '> Holdings loaded: Cleevio Group, ForTraders, Spendee, Atomika', delay: 600, color: 'text-[#555]' },
   { text: '> Closed chapters: GAMEE [ACQUIRED · Animoca] · TradingAnalyzer.ai [EXITED]', delay: 1000, color: 'text-[#444]' },
   { text: '', delay: 1300, color: '' },
   { text: '> Risk appetite .............. ELEVATED', delay: 1500, color: 'text-[#B22222]' },
